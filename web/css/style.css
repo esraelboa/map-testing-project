@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lemonada', cursive;
+    background:#dff0ea;
+    color: #248ea9;
+    font-weight: 100px;
+    text-align: center;
+}
+.header ,footer{
+    background: #c8dad3;
+   }
+
+.header img{
+    width: 3em;
+    height: 4em;
+}
+.header h1{
+    margin-top: 0; 
+}
+ul{
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ }
+ li {
+ display: inline-block;
+  margin:1em;
+}
+.search{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#map{
+    width:100%; 
+    height:300px;
+    text-align: center;
+}
